@@ -22,9 +22,11 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install --legacy-peer-deps # Use if dependency issues persist
+        run: npm ci
 
       - name: Build Angular App
+        env:
+          NG_APP_TEXT: ${{ vars.NG_APP_TEXT }}
         run: npm run build:prod
 
       - name: Deploy to GitHub Pages

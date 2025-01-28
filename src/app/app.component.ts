@@ -8,5 +8,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  text: string = import.meta.env.NG_APP_TEXT ?? 'ciaooo';
   title = 'nodo_vetrina';
 }
