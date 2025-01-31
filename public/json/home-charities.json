@@ -3,14 +3,14 @@
         "name": "charity 1",
         "slug": "charity-1",
         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
-        "imageUrl": "/placeholder.jpg",
+        "imageUrl": "./placeholder.jpg",
         "campaigns": [
             {
                 "charitySlug": "charity-1",
                 "name": "campaign 1",
                 "slug": "charity-1-campaign-1",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "type": "custom",
                 "startDate": "2025-01-10T10:02:27.739Z",
                 "endDate": "2025-01-20T10:02:27.739Z",
@@ -21,7 +21,7 @@
                         "slug": "charity-1-campaign-1-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -30,7 +30,7 @@
                         "slug": "charity-1-campaign-1-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -39,7 +39,7 @@
                         "slug": "charity-1-campaign-1-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -48,7 +48,7 @@
                         "slug": "charity-1-campaign-1-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -57,7 +57,7 @@
                         "slug": "charity-1-campaign-1-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -66,7 +66,7 @@
                         "slug": "charity-1-campaign-1-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -75,7 +75,7 @@
                         "slug": "charity-1-campaign-1-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -84,7 +84,7 @@
                         "slug": "charity-1-campaign-1-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -93,7 +93,7 @@
                         "slug": "charity-1-campaign-1-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -102,7 +102,7 @@
                         "slug": "charity-1-campaign-1-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -112,7 +112,7 @@
                 "name": "campaign 2",
                 "slug": "charity-1-campaign-2",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "type": "custom",
                 "startDate": "2025-01-01T10:02:27.739Z",
                 "endDate": "2025-03-22T10:02:27.739Z",
@@ -123,7 +123,7 @@
                         "slug": "charity-1-campaign-2-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 0
                     },
                     {
@@ -132,7 +132,7 @@
                         "slug": "charity-1-campaign-2-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -141,7 +141,7 @@
                         "slug": "charity-1-campaign-2-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -150,7 +150,7 @@
                         "slug": "charity-1-campaign-2-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -159,7 +159,7 @@
                         "slug": "charity-1-campaign-2-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -168,7 +168,7 @@
                         "slug": "charity-1-campaign-2-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -177,7 +177,7 @@
                         "slug": "charity-1-campaign-2-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -186,7 +186,7 @@
                         "slug": "charity-1-campaign-2-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -195,7 +195,7 @@
                         "slug": "charity-1-campaign-2-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -204,7 +204,7 @@
                         "slug": "charity-1-campaign-2-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -215,7 +215,7 @@
                 "slug": "charity-1-campaign-3",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-01-01T10:02:27.739Z",
                 "endDate": "2025-04-22T10:02:27.739Z",
                 "products": [
@@ -225,7 +225,7 @@
                         "slug": "charity-1-campaign-3-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -234,7 +234,7 @@
                         "slug": "charity-1-campaign-3-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -243,7 +243,7 @@
                         "slug": "charity-1-campaign-3-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -252,7 +252,7 @@
                         "slug": "charity-1-campaign-3-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -261,7 +261,7 @@
                         "slug": "charity-1-campaign-3-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -270,7 +270,7 @@
                         "slug": "charity-1-campaign-3-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -279,7 +279,7 @@
                         "slug": "charity-1-campaign-3-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -288,7 +288,7 @@
                         "slug": "charity-1-campaign-3-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -297,7 +297,7 @@
                         "slug": "charity-1-campaign-3-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -306,7 +306,7 @@
                         "slug": "charity-1-campaign-3-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -317,7 +317,7 @@
                 "slug": "charity-1-campaign-4",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-01-01T10:02:27.739Z",
                 "endDate": "2025-05-22T10:02:27.739Z",
                 "products": [
@@ -327,7 +327,7 @@
                         "slug": "charity-1-campaign-4-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -336,7 +336,7 @@
                         "slug": "charity-1-campaign-4-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -345,7 +345,7 @@
                         "slug": "charity-1-campaign-4-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -354,7 +354,7 @@
                         "slug": "charity-1-campaign-4-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -363,7 +363,7 @@
                         "slug": "charity-1-campaign-4-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -372,7 +372,7 @@
                         "slug": "charity-1-campaign-4-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -381,7 +381,7 @@
                         "slug": "charity-1-campaign-4-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -390,7 +390,7 @@
                         "slug": "charity-1-campaign-4-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -399,7 +399,7 @@
                         "slug": "charity-1-campaign-4-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -408,7 +408,7 @@
                         "slug": "charity-1-campaign-4-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -419,7 +419,7 @@
                 "slug": "charity-1-campaign-5",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-01-01T10:02:27.739Z",
                 "endDate": "2025-06-22T10:02:27.739Z",
                 "products": [
@@ -429,7 +429,7 @@
                         "slug": "charity-1-campaign-5-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -438,7 +438,7 @@
                         "slug": "charity-1-campaign-5-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -447,7 +447,7 @@
                         "slug": "charity-1-campaign-5-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -456,7 +456,7 @@
                         "slug": "charity-1-campaign-5-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -465,7 +465,7 @@
                         "slug": "charity-1-campaign-5-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -474,7 +474,7 @@
                         "slug": "charity-1-campaign-5-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -483,7 +483,7 @@
                         "slug": "charity-1-campaign-5-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -492,7 +492,7 @@
                         "slug": "charity-1-campaign-5-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -501,7 +501,7 @@
                         "slug": "charity-1-campaign-5-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -510,7 +510,7 @@
                         "slug": "charity-1-campaign-5-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -521,7 +521,7 @@
         "name": "charity 2",
         "slug": "charity-2",
         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
-        "imageUrl": "/placeholder.jpg",
+        "imageUrl": "./placeholder.jpg",
         "campaigns": [
             {
                 "charitySlug": "charity-2",
@@ -529,7 +529,7 @@
                 "slug": "charity-2-campaign-1",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-01-29T10:02:27.739Z",
                 "endDate": "2025-02-20T10:02:27.739Z",
                 "products": [
@@ -539,7 +539,7 @@
                         "slug": "charity-2-campaign-1-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -548,7 +548,7 @@
                         "slug": "charity-2-campaign-1-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -557,7 +557,7 @@
                         "slug": "charity-2-campaign-1-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -566,7 +566,7 @@
                         "slug": "charity-2-campaign-1-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -575,7 +575,7 @@
                         "slug": "charity-2-campaign-1-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -584,7 +584,7 @@
                         "slug": "charity-2-campaign-1-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -593,7 +593,7 @@
                         "slug": "charity-2-campaign-1-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -602,7 +602,7 @@
                         "slug": "charity-2-campaign-1-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -611,7 +611,7 @@
                         "slug": "charity-2-campaign-1-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -620,7 +620,7 @@
                         "slug": "charity-2-campaign-1-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -631,7 +631,7 @@
                 "slug": "charity-2-campaign-2",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-03-01T10:02:27.739Z",
                 "endDate": "2025-03-22T10:02:27.739Z",
                 "products": [
@@ -641,7 +641,7 @@
                         "slug": "charity-2-campaign-2-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -650,7 +650,7 @@
                         "slug": "charity-2-campaign-2-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -659,7 +659,7 @@
                         "slug": "charity-2-campaign-2-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -668,7 +668,7 @@
                         "slug": "charity-2-campaign-2-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -677,7 +677,7 @@
                         "slug": "charity-2-campaign-2-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -686,7 +686,7 @@
                         "slug": "charity-2-campaign-2-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -695,7 +695,7 @@
                         "slug": "charity-2-campaign-2-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -704,7 +704,7 @@
                         "slug": "charity-2-campaign-2-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -713,7 +713,7 @@
                         "slug": "charity-2-campaign-2-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -722,7 +722,7 @@
                         "slug": "charity-2-campaign-2-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -733,7 +733,7 @@
                 "slug": "charity-2-campaign-3",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-04-01T10:02:27.739Z",
                 "endDate": "2025-04-22T10:02:27.739Z",
                 "products": [
@@ -743,7 +743,7 @@
                         "slug": "charity-2-campaign-3-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -752,7 +752,7 @@
                         "slug": "charity-2-campaign-3-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -761,7 +761,7 @@
                         "slug": "charity-2-campaign-3-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -770,7 +770,7 @@
                         "slug": "charity-2-campaign-3-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -779,7 +779,7 @@
                         "slug": "charity-2-campaign-3-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -788,7 +788,7 @@
                         "slug": "charity-2-campaign-3-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -797,7 +797,7 @@
                         "slug": "charity-2-campaign-3-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -806,7 +806,7 @@
                         "slug": "charity-2-campaign-3-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -815,7 +815,7 @@
                         "slug": "charity-2-campaign-3-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -824,7 +824,7 @@
                         "slug": "charity-2-campaign-3-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -835,7 +835,7 @@
                 "slug": "charity-2-campaign-4",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-05-01T10:02:27.739Z",
                 "endDate": "2025-05-22T10:02:27.739Z",
                 "products": [
@@ -845,7 +845,7 @@
                         "slug": "charity-2-campaign-4-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -854,7 +854,7 @@
                         "slug": "charity-2-campaign-4-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -863,7 +863,7 @@
                         "slug": "charity-2-campaign-4-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -872,7 +872,7 @@
                         "slug": "charity-2-campaign-4-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -881,7 +881,7 @@
                         "slug": "charity-2-campaign-4-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -890,7 +890,7 @@
                         "slug": "charity-2-campaign-4-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -899,7 +899,7 @@
                         "slug": "charity-2-campaign-4-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -908,7 +908,7 @@
                         "slug": "charity-2-campaign-4-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -917,7 +917,7 @@
                         "slug": "charity-2-campaign-4-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -926,7 +926,7 @@
                         "slug": "charity-2-campaign-4-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -937,7 +937,7 @@
                 "slug": "charity-2-campaign-5",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-06-01T10:02:27.739Z",
                 "endDate": "2025-06-22T10:02:27.739Z",
                 "products": [
@@ -947,7 +947,7 @@
                         "slug": "charity-2-campaign-5-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -956,7 +956,7 @@
                         "slug": "charity-2-campaign-5-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -965,7 +965,7 @@
                         "slug": "charity-2-campaign-5-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -974,7 +974,7 @@
                         "slug": "charity-2-campaign-5-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -983,7 +983,7 @@
                         "slug": "charity-2-campaign-5-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -992,7 +992,7 @@
                         "slug": "charity-2-campaign-5-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1001,7 +1001,7 @@
                         "slug": "charity-2-campaign-5-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1010,7 +1010,7 @@
                         "slug": "charity-2-campaign-5-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1019,7 +1019,7 @@
                         "slug": "charity-2-campaign-5-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1028,7 +1028,7 @@
                         "slug": "charity-2-campaign-5-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1039,7 +1039,7 @@
         "name": "charity 3",
         "slug": "charity-3",
         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
-        "imageUrl": "/placeholder.jpg",
+        "imageUrl": "./placeholder.jpg",
         "campaigns": [
             {
                 "charitySlug": "charity-3",
@@ -1047,7 +1047,7 @@
                 "slug": "charity-3-campaign-1",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-01-29T10:02:27.739Z",
                 "endDate": "2025-02-20T10:02:27.739Z",
                 "products": [
@@ -1057,7 +1057,7 @@
                         "slug": "charity-3-campaign-1-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1066,7 +1066,7 @@
                         "slug": "charity-3-campaign-1-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1075,7 +1075,7 @@
                         "slug": "charity-3-campaign-1-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1084,7 +1084,7 @@
                         "slug": "charity-3-campaign-1-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1093,7 +1093,7 @@
                         "slug": "charity-3-campaign-1-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1102,7 +1102,7 @@
                         "slug": "charity-3-campaign-1-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1111,7 +1111,7 @@
                         "slug": "charity-3-campaign-1-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1120,7 +1120,7 @@
                         "slug": "charity-3-campaign-1-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1129,7 +1129,7 @@
                         "slug": "charity-3-campaign-1-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1138,7 +1138,7 @@
                         "slug": "charity-3-campaign-1-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1149,7 +1149,7 @@
                 "slug": "charity-3-campaign-2",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-03-01T10:02:27.739Z",
                 "endDate": "2025-03-22T10:02:27.739Z",
                 "products": [
@@ -1159,7 +1159,7 @@
                         "slug": "charity-3-campaign-2-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1168,7 +1168,7 @@
                         "slug": "charity-3-campaign-2-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1177,7 +1177,7 @@
                         "slug": "charity-3-campaign-2-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1186,7 +1186,7 @@
                         "slug": "charity-3-campaign-2-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1195,7 +1195,7 @@
                         "slug": "charity-3-campaign-2-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1204,7 +1204,7 @@
                         "slug": "charity-3-campaign-2-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1213,7 +1213,7 @@
                         "slug": "charity-3-campaign-2-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1222,7 +1222,7 @@
                         "slug": "charity-3-campaign-2-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1231,7 +1231,7 @@
                         "slug": "charity-3-campaign-2-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1240,7 +1240,7 @@
                         "slug": "charity-3-campaign-2-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1251,7 +1251,7 @@
                 "slug": "charity-3-campaign-3",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-04-01T10:02:27.739Z",
                 "endDate": "2025-04-22T10:02:27.739Z",
                 "products": [
@@ -1261,7 +1261,7 @@
                         "slug": "charity-3-campaign-3-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1270,7 +1270,7 @@
                         "slug": "charity-3-campaign-3-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1279,7 +1279,7 @@
                         "slug": "charity-3-campaign-3-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1288,7 +1288,7 @@
                         "slug": "charity-3-campaign-3-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1297,7 +1297,7 @@
                         "slug": "charity-3-campaign-3-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1306,7 +1306,7 @@
                         "slug": "charity-3-campaign-3-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1315,7 +1315,7 @@
                         "slug": "charity-3-campaign-3-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1324,7 +1324,7 @@
                         "slug": "charity-3-campaign-3-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1333,7 +1333,7 @@
                         "slug": "charity-3-campaign-3-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1342,7 +1342,7 @@
                         "slug": "charity-3-campaign-3-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1353,7 +1353,7 @@
                 "slug": "charity-3-campaign-4",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-05-01T10:02:27.739Z",
                 "endDate": "2025-05-22T10:02:27.739Z",
                 "products": [
@@ -1363,7 +1363,7 @@
                         "slug": "charity-3-campaign-4-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1372,7 +1372,7 @@
                         "slug": "charity-3-campaign-4-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1381,7 +1381,7 @@
                         "slug": "charity-3-campaign-4-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1390,7 +1390,7 @@
                         "slug": "charity-3-campaign-4-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1399,7 +1399,7 @@
                         "slug": "charity-3-campaign-4-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1408,7 +1408,7 @@
                         "slug": "charity-3-campaign-4-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1417,7 +1417,7 @@
                         "slug": "charity-3-campaign-4-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1426,7 +1426,7 @@
                         "slug": "charity-3-campaign-4-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1435,7 +1435,7 @@
                         "slug": "charity-3-campaign-4-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1444,7 +1444,7 @@
                         "slug": "charity-3-campaign-4-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1455,7 +1455,7 @@
                 "slug": "charity-3-campaign-5",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-06-01T10:02:27.739Z",
                 "endDate": "2025-06-22T10:02:27.739Z",
                 "products": [
@@ -1465,7 +1465,7 @@
                         "slug": "charity-3-campaign-5-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1474,7 +1474,7 @@
                         "slug": "charity-3-campaign-5-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1483,7 +1483,7 @@
                         "slug": "charity-3-campaign-5-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1492,7 +1492,7 @@
                         "slug": "charity-3-campaign-5-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1501,7 +1501,7 @@
                         "slug": "charity-3-campaign-5-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1510,7 +1510,7 @@
                         "slug": "charity-3-campaign-5-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1519,7 +1519,7 @@
                         "slug": "charity-3-campaign-5-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1528,7 +1528,7 @@
                         "slug": "charity-3-campaign-5-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1537,7 +1537,7 @@
                         "slug": "charity-3-campaign-5-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1546,7 +1546,7 @@
                         "slug": "charity-3-campaign-5-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1557,7 +1557,7 @@
         "name": "charity 4",
         "slug": "charity-4",
         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
-        "imageUrl": "/placeholder.jpg",
+        "imageUrl": "./placeholder.jpg",
         "campaigns": [
             {
                 "charitySlug": "charity-4",
@@ -1565,7 +1565,7 @@
                 "slug": "charity-4-campaign-1",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-01-29T10:02:27.739Z",
                 "endDate": "2025-02-20T10:02:27.739Z",
                 "products": [
@@ -1575,7 +1575,7 @@
                         "slug": "charity-4-campaign-1-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1584,7 +1584,7 @@
                         "slug": "charity-4-campaign-1-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1593,7 +1593,7 @@
                         "slug": "charity-4-campaign-1-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1602,7 +1602,7 @@
                         "slug": "charity-4-campaign-1-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1610,7 +1610,7 @@
                         "name": "product 5",
                         "slug": "charity-4-campaign-1-product-5",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1619,7 +1619,7 @@
                         "slug": "charity-4-campaign-1-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1628,7 +1628,7 @@
                         "slug": "charity-4-campaign-1-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1637,7 +1637,7 @@
                         "slug": "charity-4-campaign-1-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1646,7 +1646,7 @@
                         "slug": "charity-4-campaign-1-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1655,7 +1655,7 @@
                         "slug": "charity-4-campaign-1-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1666,7 +1666,7 @@
                 "slug": "charity-4-campaign-2",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-03-01T10:02:27.739Z",
                 "endDate": "2025-03-22T10:02:27.739Z",
                 "products": [
@@ -1676,7 +1676,7 @@
                         "slug": "charity-4-campaign-2-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1685,7 +1685,7 @@
                         "slug": "charity-4-campaign-2-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1694,7 +1694,7 @@
                         "slug": "charity-4-campaign-2-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1703,7 +1703,7 @@
                         "slug": "charity-4-campaign-2-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1712,7 +1712,7 @@
                         "slug": "charity-4-campaign-2-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1721,7 +1721,7 @@
                         "slug": "charity-4-campaign-2-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1730,7 +1730,7 @@
                         "slug": "charity-4-campaign-2-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1739,7 +1739,7 @@
                         "slug": "charity-4-campaign-2-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1748,7 +1748,7 @@
                         "slug": "charity-4-campaign-2-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1757,7 +1757,7 @@
                         "slug": "charity-4-campaign-2-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1768,7 +1768,7 @@
                 "slug": "charity-4-campaign-3",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-04-01T10:02:27.739Z",
                 "endDate": "2025-04-22T10:02:27.739Z",
                 "products": [
@@ -1778,7 +1778,7 @@
                         "slug": "charity-4-campaign-3-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1787,7 +1787,7 @@
                         "slug": "charity-4-campaign-3-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1796,7 +1796,7 @@
                         "slug": "charity-4-campaign-3-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1805,7 +1805,7 @@
                         "slug": "charity-4-campaign-3-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1814,7 +1814,7 @@
                         "slug": "charity-4-campaign-3-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1823,7 +1823,7 @@
                         "slug": "charity-4-campaign-3-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1832,7 +1832,7 @@
                         "slug": "charity-4-campaign-3-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1841,7 +1841,7 @@
                         "slug": "charity-4-campaign-3-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1850,7 +1850,7 @@
                         "slug": "charity-4-campaign-3-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1859,7 +1859,7 @@
                         "slug": "charity-4-campaign-3-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1870,7 +1870,7 @@
                 "slug": "charity-4-campaign-4",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-05-01T10:02:27.739Z",
                 "endDate": "2025-05-22T10:02:27.739Z",
                 "products": [
@@ -1880,7 +1880,7 @@
                         "slug": "charity-4-campaign-4-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1889,7 +1889,7 @@
                         "slug": "charity-4-campaign-4-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -1898,7 +1898,7 @@
                         "slug": "charity-4-campaign-4-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -1907,7 +1907,7 @@
                         "slug": "charity-4-campaign-4-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     },
                     {
@@ -1916,7 +1916,7 @@
                         "slug": "charity-4-campaign-4-product-5",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 30,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 300
                     },
                     {
@@ -1925,7 +1925,7 @@
                         "slug": "charity-4-campaign-4-product-6",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 35,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 350
                     },
                     {
@@ -1934,7 +1934,7 @@
                         "slug": "charity-4-campaign-4-product-7",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 40,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 400
                     },
                     {
@@ -1943,7 +1943,7 @@
                         "slug": "charity-4-campaign-4-product-8",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 45,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 450
                     },
                     {
@@ -1952,7 +1952,7 @@
                         "slug": "charity-4-campaign-4-product-9",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 50,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 500
                     },
                     {
@@ -1961,7 +1961,7 @@
                         "slug": "charity-4-campaign-4-product-10",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 55,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 550
                     }
                 ]
@@ -1972,7 +1972,7 @@
                 "slug": "charity-4-campaign-5",
                 "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                 "type": "custom",
-                "imageUrl": "/placeholder.jpg",
+                "imageUrl": "./placeholder.jpg",
                 "startDate": "2025-06-01T10:02:27.739Z",
                 "endDate": "2025-06-22T10:02:27.739Z",
                 "products": [
@@ -1982,7 +1982,7 @@
                         "slug": "charity-4-campaign-5-product-1",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 10,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 100
                     },
                     {
@@ -1991,7 +1991,7 @@
                         "slug": "charity-4-campaign-5-product-2",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 15,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 150
                     },
                     {
@@ -2000,7 +2000,7 @@
                         "slug": "charity-4-campaign-5-product-3",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 20,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 200
                     },
                     {
@@ -2009,7 +2009,7 @@
                         "slug": "charity-4-campaign-5-product-4",
                         "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
                         "price": 25,
-                        "imageUrl": "/placeholder.jpg",
+                        "imageUrl": "./placeholder.jpg",
                         "stock": 250
                     }
                 ]
