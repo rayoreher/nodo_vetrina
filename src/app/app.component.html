@@ -1,5 +1,10 @@
-<h1 class="text-3xl font-bold underline">
-  {{ text }}
-</h1>
-
-<router-outlet />
+<div class="min-h-screen flex flex-col">
+  <app-header [title]="title()" [menuItems]="menuItems()"></app-header>
+  
+  <!-- Add padding-top to account for fixed header -->
+  <main id="main-content" class="flex-grow container mx-auto px-4 py-8 mt-[72px]" role="main">
+    <router-outlet></router-outlet>
+  </main>
+  
+  <app-footer></app-footer>
+</div>

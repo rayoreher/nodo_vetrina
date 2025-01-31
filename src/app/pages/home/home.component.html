@@ -1,0 +1,13 @@
+<section>
+  <h2 class="text-2xl font-bold mb-6">Enti in Evidenza</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    @for (charity of charityStore.charities(); track charity.slug) {
+    <app-card
+      [imageUrl]="charity.imageUrl"
+      [title]="charity.name"
+      [description]="charity.description"
+      (buttonClick)="this.router.navigate(['charity', charity.slug])"
+    ></app-card>
+    }
+  </div>
+</section>

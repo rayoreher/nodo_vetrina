@@ -1,3 +1,102 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --accent-color: #f59e0b;
+}
+
+@layer base {
+  /* Improve focus visibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+  }
+
+  /* Ensure sufficient color contrast */
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  /* Improve text readability */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-gray-900;
+  }
+
+  /* Skip to main content link */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:top-0 focus:left-0 focus:z-50 
+           focus:px-4 focus:py-2 focus:bg-white focus:text-primary-600 focus:font-medium;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 
+           focus:ring-primary-500
+           disabled:bg-primary-300;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-600 text-white hover:bg-secondary-700 
+           focus:ring-secondary-500
+           disabled:bg-secondary-300;
+  }
+
+  .btn-accent {
+    @apply bg-accent-500 text-white hover:bg-accent-600 
+           focus:ring-accent-400
+           disabled:bg-accent-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg transition-shadow duration-300 
+           overflow-hidden border border-gray-100
+           hover:shadow-xl focus-within:ring-2 focus-within:ring-primary-500;
+  }
+
+  .input-group {
+    @apply relative;
+  }
+
+  .input-label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg
+           focus:ring-2 focus:ring-primary-500 focus:border-primary-500
+           disabled:bg-gray-100 disabled:text-gray-500
+           aria-invalid:border-red-500 aria-invalid:text-red-900
+           aria-invalid:placeholder-red-300;
+  }
+
+  .error-message {
+    @apply mt-2 text-sm text-red-600;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-gray-900 mb-6;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-8;
+  }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

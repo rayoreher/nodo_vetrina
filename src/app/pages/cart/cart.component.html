@@ -1,0 +1,28 @@
+<div class="space-y-4">
+  @for (product of charityStore.cartProducts(); track product.slug) {
+  <app-cart-item
+    [product]="product"
+    (updateQuantity)="onUpdateQuantity($event)"
+    (removeItem)="onRemoveItem($event)"
+  ></app-cart-item>
+  } @empty {
+  <p class="col-span-full text-center text-gray-500 py-8">
+    Nessun prodotto trovato .
+  </p>
+  }
+
+  <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-semibold mb-4">Riepilogo Ordine</h2>
+
+    <div class="space-y-3 mb-6">
+      <div class="flex justify-between font-semibold text-lg border-t pt-3">
+        <span>Totale</span>
+        <span>{{ charityStore.totalPrice().toFixed(2) }}</span>
+      </div>
+    </div>
+
+    <button (click)="(null)" class="w-full btn btn-primary">
+      Procedere al checkout
+    </button>
+  </div>
+</div>

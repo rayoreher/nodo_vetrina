@@ -1,0 +1,24 @@
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-8">Support Our Causes</h1>
+    
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+      <!-- <aside class="lg:col-span-1">
+        <app-product-filters 
+          (filterChange)="onFilterChange($event)"
+        ></app-product-filters>
+      </aside> -->
+      
+      <main class="lg:col-span-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                @for (product of charityStore.filteredProducts(); track product.slug) {
+                  <app-product-card [product]="product" (onAddToCart)="onAddToCart($event)"></app-product-card>
+                } @empty {
+                  <p class="col-span-full text-center text-gray-500 py-8">
+                    Nessun prodotto trovato .
+                  </p>
+                }
+          </div>
+        `
+      </main>
+    </div>
+  </div>

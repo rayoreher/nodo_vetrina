@@ -1,0 +1,30 @@
+[
+    {
+        "name": "charity 1",
+        "slug": "charity-1",
+        "description": "Cillum ut ad consequat enim do Lorem nisi sunt velit.",
+        "imageUrl": "/placeholder.jpg",
+        "campaigns": [
+            {
+                "charitySlug": "charity-1",
+                "name": "campaign 1",
+                "slug":"charity-campaign-1",
+                "description":"Cillum ut ad consequat enim do Lorem nisi sunt velit.",
+                "type": "custom",
+                "startDate": "2025-01-29T10:02:27.739Z",
+                "endDate": "2025-02-20T10:02:27.739Z",
+                "products": [
+                    {
+                        "campaignSlug": "charity-campaign-1",
+                        "name": "product 1",
+                        "slug": "charity-campaign-product-1",
+                        "description":"Cillum ut ad consequat enim do Lorem nisi sunt velit.",
+                        "price": 10,
+                        "imageUrl": "/placeholder.jpg",
+                        "quantity": 100
+                    }
+                ]
+            }
+        ]
+    }
+]

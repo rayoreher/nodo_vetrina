@@ -1,0 +1,19 @@
+@if (charityStore.selectedCharity(); as charity) {
+<section>
+  <h2 class="text-2xl font-bold mb-6">Campagne in Corso</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    @for (campaign of charity.campaigns; track $index) {
+    <app-card
+      [imageUrl]="campaign.imageUrl"
+      [title]="campaign.name"
+      [description]="campaign.description"
+      (buttonClick)="router.navigate(['campaign', campaign.slug], { relativeTo: route })"
+    ></app-card>
+    } @empty {
+      <p class="col-span-full text-center text-gray-500 py-8">
+        Nessun prodotto trovato .
+      </p>
+    }
+  </div>
+</section>
+}

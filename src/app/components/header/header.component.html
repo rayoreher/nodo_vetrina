@@ -1,0 +1,107 @@
+<header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+  <nav class="container mx-auto px-4 py-4">
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <a [routerLink]="charityStore.selectedCharity() ? '/charity/' + charityStore.selectedCharity()?.slug : '/'" class="flex items-center space-x-2">
+        <div
+          class="w-10 h-10 rounded-lg bg-primary-600 flex items-center justify-center"
+        >
+          <svg
+            class="w-6 h-6 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+            />
+          </svg>
+        </div>
+        <span class="text-xl font-bold text-gray-900">{{ title() }} 
+          @if (charityStore.selectedCharity()) {
+            - {{ charityStore.selectedCharity()?.name }}
+          }
+        </span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="md:flex items-center space-x-8">
+        <div class="hidden md:flex items-center space-x-8">
+          @for (item of menuItems(); track $index) {
+          <a
+            [id]="'menu-item-' + $index"
+            [routerLink]="item.path"
+            routerLinkActive="text-primary-600"
+            class="text-gray-600 hover:text-primary-600 transition-colors duration-200 font-medium"
+          >
+            {{ item.label }}
+          </a>
+          }
+          
+        </div>
+        <app-cart-button [itemsInCart]="charityStore.productsCount()"></app-cart-button>
+        <!-- Mobile Menu Button -->
+        <button
+          class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+          (click)="toggleMobileMenu()"
+          [attr.aria-expanded]="isMobileMenuOpen()"
+          aria-controls="mobile-menu"
+          aria-label="Toggle navigation menu"
+        >
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            @if (!isMobileMenuOpen()) {
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            } @if (isMobileMenuOpen()) {
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+            }
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div
+      id="mobile-menu"
+      class="md:hidden absolute inset-x-0 top-full bg-white shadow-lg transition-all duration-200 ease-in-out"
+      [class.opacity-100]="isMobileMenuOpen()"
+      [class.opacity-0]="!isMobileMenuOpen()"
+      [class.visible]="isMobileMenuOpen()"
+      [class.invisible]="!isMobileMenuOpen"
+      role="navigation"
+      aria-label="Mobile navigation"
+    >
+      <div class="px-4 py-2 space-y-1">
+        @for (item of menuItems(); track $index) {
+            <a
+            [id]="'menu-item-' + $index"
+            [routerLink]="item.path"
+            routerLinkActive="text-primary-600 bg-primary-50"
+            class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded-lg transition-colors duration-200"
+            (click)="isMobileMenuOpen.set(false)"
+          >
+            {{ item.label }}
+          </a>
+        }
+      </div>
+    </div>
+  </nav>
+</header>
