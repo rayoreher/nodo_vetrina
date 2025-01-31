@@ -12,7 +12,7 @@ export class ClientService {
   constructor() {}
 
   getCharities() {
-    return this.http.get<Charity[]>("/json/home-charities.json");
+    return this.http.get<Charity[]>("./json/home-charities.json");
   }
 
   getCharitiesPromise() {
@@ -24,7 +24,7 @@ export class ClientService {
   }
 
   getCharityBySlug(charitySlug: string) {
-    return this.http.get<Charity[]>("/json/home-charities.json").pipe(
+    return this.getCharities().pipe(
       map((x) => (x.find((f) => f.slug === charitySlug)) ?? null),
       map((x) => {
         if (!x) {
