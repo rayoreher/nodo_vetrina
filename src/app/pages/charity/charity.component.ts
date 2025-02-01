@@ -22,5 +22,8 @@ export class CharityComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.charityStore.resetSelectedCampaign();
     await this.charityStore.loadCharityBySlug(this.charitySlug());
+    if (this.charityStore.selectedCharity() && this.charityStore.selectedCharity()!.campaigns.length === 1) {
+      this.router.navigate(['campaign', this.charityStore.selectedCharity()!.campaigns[0].slug], { relativeTo: this.route })
+    }
   }
 }

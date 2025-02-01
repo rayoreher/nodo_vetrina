@@ -1,14 +1,14 @@
 import { computed, inject } from "@angular/core";
 import { patchState, signalStore, withComputed, withMethods, withState } from "@ngrx/signals";
 import { ClientService } from "../_services/client.service";
-import { Campaign, Charity, GetCampaign, GetCharity } from "../_types/charity.type";
+import { Campaign, CartProduct, Charity, GetCampaign, GetCharity, Product } from "../_types/charity.type";
 
 type CharityState = {
     charities: Charity[];
     loading: boolean;
     selectedCharity: Charity | null;
     selectedCampaign: Campaign | null;
-    cartItems: { [key: string]: number }
+    cartItems: { [key: string]: CartProduct }
 };
 
 const initialState: CharityState = {
@@ -45,13 +45,13 @@ export const CharityStore = signalStore(
             resetSelectedCampaign() {
                 patchState(store, { selectedCampaign: null });
             },
-            addItemToCart(productSlug: string, quantity: number) {
+            addItemToCart(product: Product, quantity: number) {
                 const cartItems = store.cartItems();
-                patchState(store, { cartItems:  { ...cartItems, [productSlug]: quantity }});
+                patchState(store, { cartItems:  { ...cartItems, [product.slug]: {...product, quantity} }});
             },
             updateCartItemQuantity(productSlug: string, quantity: number) {
                 const cartItems = store.cartItems();
-                patchState(store, { cartItems:  { ...cartItems, [productSlug]: quantity }});
+                patchState(store, { cartItems:  { ...cartItems, [productSlug]: { ...cartItems[productSlug], quantity: quantity } }});
             },
             deleteItemFromCart(productSlug: string) {
                 const { [productSlug]: removedProperty, ...remainingObject } = store.cartItems();
@@ -67,10 +67,10 @@ export const CharityStore = signalStore(
             return Object.values(cartItems()).length;
         }),
         totalPrice: computed(() => {
-            return selectedCampaign()?.products.filter(x => cartItems()[x.slug]).reduce((acc, current) => acc + (current.price * cartItems()[current.slug]), 0) || 0
+            return Object.values(cartItems()).reduce((acc, current) => acc + (current.price * current.quantity), 0) || 0
         }),
         cartProducts: computed(() => {
-            return (selectedCampaign()?.products.filter(x => cartItems()[x.slug]).map(x => {return {...x, quantity: cartItems()[x.slug]}}) || [])
+            return Object.values(cartItems()).map(x => x as CartProduct);       
         })
     }))
 );

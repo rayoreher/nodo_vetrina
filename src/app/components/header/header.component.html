@@ -42,7 +42,9 @@
           }
           
         </div>
-        <app-cart-button [itemsInCart]="charityStore.productsCount()"></app-cart-button>
+        @if (charityStore.selectedCharity()) {
+          <app-cart-button (click)="router.navigate(['charity', this.charityStore.selectedCharity()?.slug, 'cart'])" [itemsInCart]="charityStore.productsCount()"></app-cart-button>
+        }
         <!-- Mobile Menu Button -->
         <button
           class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
@@ -85,7 +87,8 @@
       [class.opacity-100]="isMobileMenuOpen()"
       [class.opacity-0]="!isMobileMenuOpen()"
       [class.visible]="isMobileMenuOpen()"
-      [class.invisible]="!isMobileMenuOpen"
+      [class.invisible]="!isMobileMenuOpen()"
+      [class.hidden]="!isMobileMenuOpen()"
       role="navigation"
       aria-label="Mobile navigation"
     >

@@ -10,15 +10,15 @@ import { FormsModule } from '@angular/forms';
 })
 export class ProductCardComponent implements OnInit {
   product = input.required<Product>();
-  onAddToCart = output<{ productSlug: string, quantity: number }>();
+  onAddToCart = output<{ product: Product, quantity: number }>();
   quantity = signal(1);
   ngOnInit(): void {
     if (this.product().stock === 0) {
       this.quantity.set(0);
     }
   }
-  buttonClick(productSlug: string, quantity: number) {
+  buttonClick(product: Product, quantity: number) {
     this.quantity.set(1);
-    this.onAddToCart.emit({ productSlug, quantity })
+    this.onAddToCart.emit({ product, quantity })
   }
 }
