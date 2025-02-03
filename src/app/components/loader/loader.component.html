@@ -1,0 +1,9 @@
+@if (charityStore.loading()) {
+<p-progressbar
+  id="loader"
+  mode="indeterminate"
+  [style]="{ height: '6px' }"
+  [valueStyleClass]="'!bg-blue-800'"
+/>
+<div class="load bg-black"></div>
+}

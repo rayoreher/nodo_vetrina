@@ -2,6 +2,8 @@ import { computed, inject } from "@angular/core";
 import { patchState, signalStore, withComputed, withMethods, withState } from "@ngrx/signals";
 import { ClientService } from "../_services/client.service";
 import { Campaign, CartProduct, Charity, GetCampaign, GetCharity, Product } from "../_types/charity.type";
+import { SnackbarType } from "../_types/snackbar-type.type";
+import { MessageService } from "primeng/api";
 
 type CharityState = {
     charities: Charity[];
@@ -23,7 +25,7 @@ export const CharityStore = signalStore(
     { providedIn: "root" },
     withState(initialState),
     withMethods(
-        (store, client = inject(ClientService)) => ({
+        (store, client = inject(ClientService), messageService = inject(MessageService)) => ({
             async loadCharities() {
                 patchState(store, { loading: true });
                 const charities = await client.getCharitiesPromise();
@@ -48,6 +50,7 @@ export const CharityStore = signalStore(
             addItemToCart(product: Product, quantity: number) {
                 const cartItems = store.cartItems();
                 patchState(store, { cartItems:  { ...cartItems, [product.slug]: {...product, quantity} }});
+                this.snackbarInfo(`${product.name} aggiunto al carrello`);
             },
             updateCartItemQuantity(productSlug: string, quantity: number) {
                 const cartItems = store.cartItems();
@@ -56,6 +59,12 @@ export const CharityStore = signalStore(
             deleteItemFromCart(productSlug: string) {
                 const { [productSlug]: removedProperty, ...remainingObject } = store.cartItems();
                 patchState(store, { cartItems:  { ...remainingObject }});
+            },
+            snackbarInfo(message: string) {
+                messageService.add({ life: 3000, key: 'info', summary: message, styleClass: '!border-blue-800'});
+            },
+            snackbarError(message: string) {
+                messageService.add({ life: 3000, key: 'error', summary: message, styleClass: '!border-red-800'});
             }
         })
     ),

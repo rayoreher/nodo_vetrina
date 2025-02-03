@@ -17,8 +17,5 @@ const initialState: CartState = {
 
 export const CartStore = signalStore(
     { providedIn: "root" },
-    withState(initialState),
-    // withMethods(
-    //     (store, to) => 
-    // )
+    withState(initialState)
 );

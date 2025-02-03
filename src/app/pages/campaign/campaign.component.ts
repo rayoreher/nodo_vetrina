@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { CharityStore } from '../../_store/charity.store';
 import { ProductCardComponent } from '../../components/product-card/product-card.component';
 import { Product } from '../../_types/charity.type';
-import { SnackbarService } from '../../_services/snackbar.service';
 import { AccordionModule } from 'primeng/accordion';
 @Component({
   selector: 'app-campaign',
@@ -14,7 +13,6 @@ import { AccordionModule } from 'primeng/accordion';
 })
 export class CampaignComponent implements OnInit {
   charityStore = inject(CharityStore);
-  snackbarService = inject(SnackbarService)
   charitySlug = input.required<string>();
   campaignSlug = input.required<string>();
   async ngOnInit(): Promise<void> {
@@ -24,7 +22,6 @@ export class CampaignComponent implements OnInit {
   }
 
   onAddToCart({ product, quantity }: { product: Product, quantity: number }){
-    this.snackbarService.infoMessage(`${product.name} aggiunto al carrello`);
     this.charityStore.addItemToCart(product, quantity)
   }
 }

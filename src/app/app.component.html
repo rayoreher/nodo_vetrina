@@ -1,9 +1,10 @@
 <div class="min-h-screen flex flex-col">
-  <p-toast />
+  <!-- <p-toast /> -->
+   <app-snackbar></app-snackbar>
   <app-header [title]="title()" [menuItems]="menuItems()"></app-header>
-  
+  <app-loader></app-loader>
   <!-- Add padding-top to account for fixed header -->
-  <main id="main-content" class="flex-grow container mx-auto px-4 py-8 mt-[72px]" role="main">
+  <main id="main-content" class="flex-grow container mx-auto px-4 py-8" role="main">
     <router-outlet></router-outlet>
   </main>
   

@@ -100,3 +100,13 @@
     }
   }
 }
+
+// addons
+
+#loader .p-progressbar-value {
+  @apply bg-blue-800
+}
+
+.body-overflow-hidden {
+  overflow: hidden;
+}

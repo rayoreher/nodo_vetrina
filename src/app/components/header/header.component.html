@@ -1,4 +1,4 @@
-<header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+<header class="bg-white shadow-md z-50">
   <nav class="container mx-auto px-4 py-4">
     <div class="flex items-center justify-between">
       <!-- Logo -->
@@ -29,7 +29,7 @@
 
       <!-- Desktop Menu -->
       <div class="md:flex items-center space-x-8">
-        <div class="hidden md:flex items-center space-x-8">
+        <!-- <div class="hidden md:flex items-center space-x-8">
           @for (item of menuItems(); track $index) {
           <a
             [id]="'menu-item-' + $index"
@@ -41,12 +41,12 @@
           </a>
           }
           
-        </div>
+        </div> -->
         @if (charityStore.selectedCharity()) {
           <app-cart-button (click)="router.navigate(['charity', this.charityStore.selectedCharity()?.slug, 'cart'])" [itemsInCart]="charityStore.productsCount()"></app-cart-button>
         }
         <!-- Mobile Menu Button -->
-        <button
+        <!-- <button
           class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
           (click)="toggleMobileMenu()"
           [attr.aria-expanded]="isMobileMenuOpen()"
@@ -75,13 +75,13 @@
             />
             }
           </svg>
-        </button>
+        </button> -->
       </div>
 
     </div>
 
     <!-- Mobile Menu -->
-    <div
+    <!-- <div
       id="mobile-menu"
       class="md:hidden absolute inset-x-0 top-full bg-white shadow-lg transition-all duration-200 ease-in-out"
       [class.opacity-100]="isMobileMenuOpen()"
@@ -105,6 +105,6 @@
           </a>
         }
       </div>
-    </div>
+    </div> -->
   </nav>
 </header>

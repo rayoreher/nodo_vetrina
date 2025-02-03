@@ -1,0 +1,51 @@
+<p-toast
+  position="top-center"
+  key="info"
+  [baseZIndex]="5000"
+  [styleClass]="'!w-full sm:!w-96 px-4'"
+>
+  <ng-template let-message #headless let-closeFn="closeFn">
+    <div
+      class="grid grid-cols-[1fr_auto] text-blue-800 rounded-lg bg-blue-50"
+      role="alert"
+    >
+      <div class="m-3">
+        {{ message.summary }}
+      </div>
+      <button (click)="closeFn($event)" class="btn text-xl">X</button>
+    </div>
+  </ng-template>
+</p-toast>
+
+<p-toast
+  position="top-center"
+  key="error"
+  [baseZIndex]="5000"
+  [styleClass]="'!w-full sm:!w-96 px-4'"
+>
+  <ng-template let-message #headless let-closeFn="closeFn">
+    <div
+      class="grid grid-cols-[1fr_auto] text-red-800 rounded-lg bg-red-50"
+      role="alert"
+    >
+      <div class="m-3">
+        {{ message.summary }}
+      </div>
+      <button (click)="closeFn($event)" class="btn">
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </div>
+  </ng-template>
+</p-toast>
