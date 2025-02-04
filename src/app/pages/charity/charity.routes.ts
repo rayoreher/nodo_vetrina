@@ -2,6 +2,7 @@ import { Routes } from "@angular/router";
 import { CharityComponent } from "./charity.component";
 import { CampaignComponent } from "../campaign/campaign.component";
 import { CartComponent } from "../cart/cart.component";
+import { CheckoutComponent } from "../checkout/checkout.component";
 
 export const CHARITY_ROUTES: Routes = [
   {
@@ -9,11 +10,15 @@ export const CHARITY_ROUTES: Routes = [
     component: CharityComponent,
   },
   {
-    path: ":charitySlug/campaign/:campaignSlug",
-    component: CampaignComponent,
+    path: ':charitySlug/cart',
+    component: CartComponent
   },
   {
-    path: ':charitySlug/cart',
-    loadChildren: () => import('../cart/cart.routes').then(m => m.CART_ROUTES)
+    path: ':charitySlug/cart/checkout',
+    component: CheckoutComponent
   },
+  {
+    path: ":charitySlug/:campaignSlug",
+    component: CampaignComponent,
+  }
 ];

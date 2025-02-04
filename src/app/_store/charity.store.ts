@@ -42,19 +42,19 @@ export const CharityStore = signalStore(
                 patchState(store, { selectedCampaign: campaign.campaign, selectedCharity: campaign.charity, loading: false });
             },
             resetSelectedCharity() {
-                patchState(store, { selectedCharity: null, selectedCampaign: null });
+                patchState(store, { selectedCharity: null, selectedCampaign: null, cartItems: {} });
             },
             resetSelectedCampaign() {
                 patchState(store, { selectedCampaign: null });
             },
-            addItemToCart(product: Product, quantity: number) {
+            addItemToCart(product: CartProduct) {
                 const cartItems = store.cartItems();
-                patchState(store, { cartItems:  { ...cartItems, [product.slug]: {...product, quantity} }});
+                patchState(store, { cartItems:  { ...cartItems, [product.slug]: product }});
                 this.snackbarInfo(`${product.name} aggiunto al carrello`);
             },
-            updateCartItemQuantity(productSlug: string, quantity: number) {
+            updateCartProduct(product: CartProduct) {
                 const cartItems = store.cartItems();
-                patchState(store, { cartItems:  { ...cartItems, [productSlug]: { ...cartItems[productSlug], quantity: quantity } }});
+                patchState(store, { cartItems:  { ...cartItems, [product.slug]: product }});
             },
             deleteItemFromCart(productSlug: string) {
                 const { [productSlug]: removedProperty, ...remainingObject } = store.cartItems();
@@ -70,7 +70,7 @@ export const CharityStore = signalStore(
     ),
     withComputed(({ cartItems, selectedCampaign }) => ({
         filteredProducts: computed(() => {
-            return selectedCampaign()?.products.filter(x => !cartItems()[x.slug]) || []
+            return selectedCampaign()?.products || []
         }),
         productsCount: computed(() => {
             return Object.values(cartItems()).length;

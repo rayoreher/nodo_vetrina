@@ -1,7 +1,4 @@
-import { Component, inject, input, OnInit, signal } from '@angular/core';
-import { Charity } from '../../_types/charity.type';
-import { Observable } from 'rxjs';
-import { ClientService } from '../../_services/client.service';
+import { Component, inject, input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from '../../components/card/card.component';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -19,7 +16,7 @@ export class CharityComponent implements OnInit {
   charityStore = inject(CharityStore);
   charitySlug = input.required<string>();
 
-  async ngOnInit(): Promise<void> {
+  async ngOnInit(): Promise<void> {    
     this.charityStore.resetSelectedCampaign();
     await this.charityStore.loadCharityBySlug(this.charitySlug());
     if (this.charityStore.selectedCharity() && this.charityStore.selectedCharity()!.campaigns.length === 1) {

@@ -1,5 +1,8 @@
 <section>
-  <h2 class="text-2xl font-bold mb-6">Enti in Evidenza</h2>
+  <div class="my-6">
+    <h2 class="text-2xl font-bold">Enti in Evidenza</h2>
+    <hr class="border-gray-400 dark:border-white" />
+  </div>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     @for (charity of charityStore.charities(); track charity.slug) {
     <app-card

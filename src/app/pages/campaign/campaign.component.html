@@ -1,38 +1,47 @@
 <section>
   <div class="card grid grid-cols-1 md:grid-cols-[1fr_2fr] mb-4">
-    <img [src]="charityStore.selectedCampaign()?.imageUrl" [alt]="charityStore.selectedCampaign()?.name" class="w-full h-48 object-cover" />
+    <img
+      [src]="charityStore.selectedCampaign()?.imageUrl"
+      [alt]="charityStore.selectedCampaign()?.name"
+      class="w-full h-48 object-cover"
+    />
     <div class="p-4 grid grid-rows-[auto_1fr_auto]">
-      <h3 class="text-xl font-semibold mb-2">{{ charityStore.selectedCampaign()?.name }}</h3>
-      <p class="text-gray-600 mb-4">{{ charityStore.selectedCampaign()?.description }}</p>
-      <p class="text-gray-600 justify-self-end">Fine Campagna: {{ charityStore.selectedCampaign()?.endDate | date: 'dd/MM/yyyy' }}</p>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ charityStore.selectedCampaign()?.name }}
+      </h3>
+      <p class="text-gray-600 mb-4">
+        {{ charityStore.selectedCampaign()?.description }}
+      </p>
+      <p class="text-gray-600 justify-self-end">
+        Fine Campagna:
+        {{ charityStore.selectedCampaign()?.endDate | date : "dd/MM/yyyy" }}
+      </p>
     </div>
   </div>
 
-<div class=" my-4">
-  <h2 class="text-2xl font-bold">Prodotti</h2>
-  <hr class="border-gray-400 dark:border-white">
-</div>
+  <div class="my-6">
+    <h2 class="text-2xl font-bold">Prodotti</h2>
+    <hr class="border-gray-400 dark:border-white" />
+  </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+  <div class="grid grid-cols-1">
     <!-- <aside class="lg:col-span-1">
         <app-product-filters 
           (filterChange)="onFilterChange($event)"
         ></app-product-filters>
       </aside> -->
 
-    <main class="lg:col-span-4">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        @for (product of charityStore.filteredProducts(); track product.slug) {
-        <app-product-card
-          [product]="product"
-          (onAddToCart)="onAddToCart($event)"
-        ></app-product-card>
-        } @empty {
-        <p class="col-span-full text-center text-gray-500 py-8">
-          Nessun prodotto trovato.
-        </p>
-        }
-      </div>
+    <main class="grid grid-cols-1 gap-2">
+      @for (product of charityStore.filteredProducts(); track product.slug) {
+      <app-item-card
+        [product]="product"
+        (addProductToCart)="onAddToCart($event)"
+      ></app-item-card>
+      } @empty {
+      <p class="col-span-full text-center text-gray-500 py-8">
+        Nessun prodotto trovato.
+      </p>
+      }
     </main>
   </div>
 </section>

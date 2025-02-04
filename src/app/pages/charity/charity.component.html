@@ -1,17 +1,25 @@
 @if (charityStore.selectedCharity(); as charity) {
 <section>
   <div class="card grid grid-cols-1 md:grid-cols-[1fr_2fr] mb-4">
-    <img [src]="charityStore.selectedCharity()?.imageUrl" [alt]="charityStore.selectedCharity()?.name" class="w-full h-48 object-cover" />
+    <img
+      [src]="charity.imageUrl"
+      [alt]="charity.name"
+      class="w-full h-48 object-cover"
+    />
     <div class="p-4 grid grid-rows-[auto_1fr_auto]">
-      <h3 class="text-xl font-semibold mb-2">{{ charityStore.selectedCharity()?.name }}</h3>
-      <p class="text-gray-600 mb-4">{{ charityStore.selectedCharity()?.description }}</p>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ charity.name }}
+      </h3>
+      <p class="text-gray-600 mb-4">
+        {{ charity.description }}
+      </p>
     </div>
   </div>
 
-<div class=" my-4">
-  <h2 class="text-2xl font-bold">Campagne in Corso</h2>
-  <hr class="border-gray-400 dark:border-white">
-</div>
+  <div class="my-6">
+    <h2 class="text-2xl font-bold">Campagne in Corso</h2>
+    <hr class="border-gray-400 dark:border-white" />
+  </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     @for (campaign of charity.campaigns; track $index) {
@@ -19,12 +27,14 @@
       [imageUrl]="campaign.imageUrl"
       [title]="campaign.name"
       [description]="campaign.description"
-      (buttonClick)="router.navigate(['campaign', campaign.slug], { relativeTo: route })"
+      (buttonClick)="
+        router.navigate([campaign.slug], { relativeTo: route })
+      "
     ></app-card>
     } @empty {
-      <p class="col-span-full text-center text-gray-500 py-8">
-        Nessun prodotto trovato .
-      </p>
+    <p class="col-span-full text-center text-gray-500 py-8">
+      Nessun prodotto trovato .
+    </p>
     }
   </div>
 </section>

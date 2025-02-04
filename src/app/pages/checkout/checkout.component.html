@@ -1,0 +1,110 @@
+<section>
+    <div class="card max-w-md mx-auto px-4 md:px-8 py-4 mb-4">
+        <div class="my-6">
+            <h2 class="text-2xl font-bold">Riepilogo del Carrello</h2>
+            <hr class="border-gray-400 dark:border-white" />
+          </div>
+        <div *ngFor="let item of charityStore.cartProducts()">
+          <p>{{ item.name }} - €{{ item.price }} x {{ item.quantity }}</p>
+        </div>
+        <div class="my-6">
+            <h2 class="text-2xl font-bold">Importo Totale: €{{ charityStore.totalPrice() }}</h2>
+            <hr class="border-gray-400 dark:border-white" />
+          </div>
+    </div>
+  <div class="card max-w-md mx-auto px-4 md:px-8 pt-4 pb-8">
+    <div class="my-6">
+        <h2 class="text-2xl font-bold">Informazioni Personali</h2>
+        <hr class="border-gray-400 dark:border-white" />
+      </div>
+    <form
+      [formGroup]="form"
+      (ngSubmit)="onSubmit()"
+      class=""
+    >
+      <div class="form-group">
+        <label for="nome_completo" class="label-styles">Nome Completo</label>
+
+        <input
+          type="text"
+          name="nome_completo"
+          id="nome_completo"
+          class="input-styles peer"
+          formControlName="fullname"
+        />
+        @if (form.get('fullname')?.touched &&
+        form.get('fullname')?.hasError('required')) {
+        <label for="fullname_error_required" class="text-red-500"
+          >Il campo Nome Completo é obbligatorio</label
+        >
+        }
+      </div>
+      <div class="form-group group">
+        <label for="data_ritiro" class="label-styles">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="input-styles peer"
+          formControlName="email"
+        />
+        @if (form.get('email')?.touched &&
+        form.get('email')?.hasError('required')) {
+        <label for="email_errore_obbligatorio" class="text-red-500"
+          >Il campo Email è obbligatorio</label
+        >
+        } @if (form.get('email')?.touched &&
+        form.get('email')?.hasError('email')) {
+        <label for="email_errore_formatto" class="text-red-500"
+          >Il campo Email deve essere valido</label
+        >
+        }
+      </div>
+      <div class="form-group">
+        <label for="telefono" class="label-styles">Telefono</label>
+        <input
+          type="number"
+          name="telefono"
+          id="telefono"
+          class="input-styles peer"
+          formControlName="phone"
+        />
+        @if (form.get('phone')?.touched &&
+        form.get('phone')?.hasError('required')) {
+        <label for="telefono_errore_obbligatorio" class="text-red-500"
+          >Il campo Telefono é obbligatorio</label
+        >
+        } @if (form.get('phone')?.touched &&
+        form.get('phone')?.hasError('pattern')) {
+        <label for="telefono_errore_obbligatorio" class="text-red-500"
+          >Il campo Telefono deve essere valido</label
+        >
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="data_ritiro" class="label-styles">Data Ritiro</label>
+
+        <p-datepicker
+          [dateFormat]="'dd/mm/yy'"
+          [showIcon]="true"
+          [iconDisplay]="'input'"
+          [minDate]="minDate"
+          id="p-datepicker"
+          formControlName="pickupDate"
+          styleClass="!block"
+          inputStyleClass="!rounded-none !shadow-none !block !py-2.5 !px-0 !w-full !text-sm !text-gray-900 !bg-transparent !border-0 !border-b-2 !border-gray-300 !appearance-none !focus:outline-none !focus:ring-0 !focus:border-blue-600 !peer"
+        />
+        @if (form.get('pickupDate')?.touched &&
+        form.get('pickupDate')?.hasError('required')) {
+        <label for="data_ritiro_errore_obbligatorio" class="text-red-500"
+          >Il campo Data Ritiro é obbligatorio</label
+        >
+        }
+      </div>
+      <button type="submit" [disabled]="form.invalid" class="btn btn-primary">
+        Prenota
+      </button>
+    </form>
+  </div>
+</section>

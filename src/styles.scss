@@ -10,9 +10,7 @@
 
 @layer base {
   /* Improve focus visibility */
-  *:focus-visible {
-    @apply outline-none ring-2 ring-primary-500 ring-offset-2;
-  }
+
 
   /* Ensure sufficient color contrast */
   body {
@@ -55,7 +53,11 @@
            focus:ring-accent-400
            disabled:bg-accent-300;
   }
-
+  .btn-warn {
+    @apply bg-red-600 text-white hover:bg-red-700 
+           focus:ring-red-400
+           disabled:bg-red-300;
+  }
   .card {
     @apply bg-white rounded-xl shadow-lg transition-shadow duration-300 
            overflow-hidden border border-gray-100
@@ -109,4 +111,22 @@
 
 .body-overflow-hidden {
   overflow: hidden;
+}
+
+#p-datepicker .p-button-text {
+  @apply text-blue-800
+}
+#p-datepicker .p-button-text:not(:disabled):active {
+  @apply bg-blue-300
+}
+
+#p-datepicker .p-button-text:not(:disabled):hover {
+  @apply bg-blue-300
+}
+#p-datepicker .p-datepicker-day-selected {
+  @apply bg-blue-500
+}
+
+#p-datepicker .p-datepicker-year-selected {
+  @apply bg-blue-500
 }

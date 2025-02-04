@@ -1,15 +1,17 @@
-<div class="space-y-4">
-  @for (product of charityStore.cartProducts(); track product.slug) {
-  <app-cart-item
-    [product]="product"
-    (updateQuantity)="onUpdateQuantity($event)"
-    (removeItem)="onRemoveItem($event)"
-  ></app-cart-item>
-  } @empty {
-  <p class="col-span-full text-center text-gray-500 py-8">
-    Nessun prodotto trovato .
-  </p>
-  }
+<section class="grid grid-cols-1 gap-2">
+  <main class="grid grid-cols-1 gap-2">
+    @for (product of charityStore.cartProducts(); track product.slug) {
+      <app-item-card [product]="product"
+      (updateProduct)="onUpdateProduct($event)"
+      (removeProduct)="onRemoveProduct($event)">
+      </app-item-card >
+    } @empty {
+    <p class="col-span-full text-center text-gray-500 py-8">
+      Nessun prodotto trovato .
+    </p>
+    }
+  </main>
+
 
   <div class="bg-white p-6 rounded-lg shadow-md">
     <h2 class="text-xl font-semibold mb-4">Riepilogo Ordine</h2>
@@ -21,8 +23,8 @@
       </div>
     </div>
 
-    <button (click)="(null)" class="w-full btn btn-primary">
+    <button [disabled]="charityStore.productsCount() == 0" [routerLink]="['checkout']" class="w-full btn btn-primary">
       Procedere al checkout
     </button>
   </div>
-</div>
+</section>

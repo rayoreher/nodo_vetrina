@@ -1,20 +1,22 @@
 import { Component, inject } from '@angular/core';
-import { CartItemComponent } from "../../components/cart-item/cart-item.component";
 import { CharityStore } from '../../_store/charity.store';
+import { ItemCardComponent } from './components/item-card/item-card.component';
+import { CartProduct } from '../../_types/charity.type';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cart',
-  imports: [CartItemComponent],
+  imports: [ItemCardComponent, RouterLink],
   templateUrl: './cart.component.html',
   styleUrl: './cart.component.scss'
 })
 export class CartComponent {
   charityStore = inject(CharityStore);
-  onUpdateQuantity({quantity, productSlug}: { quantity: number, productSlug: string }) {
-    this.charityStore.updateCartItemQuantity(productSlug, quantity);
+  onUpdateProduct(product: CartProduct) {
+    this.charityStore.updateCartProduct(product);
   }
 
-  onRemoveItem(productSlug: string){
+  onRemoveProduct(productSlug: string){
     this.charityStore.deleteItemFromCart(productSlug);
   }
 }
