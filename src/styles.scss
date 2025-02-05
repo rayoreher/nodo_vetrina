@@ -59,8 +59,7 @@
            disabled:bg-red-300;
   }
   .card {
-    @apply bg-white rounded-xl shadow-lg transition-shadow duration-300 
-           overflow-hidden border border-gray-100
+    @apply bg-white rounded-xl shadow-lg transition-shadow duration-300 border border-gray-100
            hover:shadow-xl focus-within:ring-2 focus-within:ring-primary-500;
   }
 

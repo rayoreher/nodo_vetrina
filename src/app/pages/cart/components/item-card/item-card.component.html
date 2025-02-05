@@ -20,13 +20,9 @@
         -
       </button>
 
-      <input
-        [disabled]="true"
-        type="number"
-        [value]="product().quantity"
-        min="1"
-        class="w-12 text-center border-y"
-      />
+      <div class="w-12 text-center border-y">
+        {{product().quantity}}
+      </div>
 
       <button
         (click)="updatequantity(product().quantity + 1)"
